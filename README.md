@@ -9,10 +9,12 @@ Facebook AI Research, UC Berkeley\
 
 <!-- ---  -->
 
-<figure align="center">
-<img src="static/comparison.png" width=60% height=60% class="center">
-<figcaption>Figure 1: Performance comparison on SynMars-TW.</figcaption>
-</figure>
+<div align="center">
+  <img src="static/comparison.png" height="400">
+</div>
+<p align="center">
+  Figure 1: Performance comparison on SynMars-TW.
+</p>
 
 We present nn~~M~~Net, a novel hybrid CNN-Transformer model for Martian terrain semantic segmentation.
 
