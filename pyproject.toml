@@ -7,6 +7,7 @@ requires-python = ">=3.13"
 dependencies = [
     "fvcore>=0.1.5.post20221221",
     "nnunetv2",
+    "opencv-python>=5.0.0.93",
     "rich>=15.0.0",
     "rich-argparse>=1.8.0",
     "tabulate>=0.10.0",

@@ -296,8 +296,8 @@ class Visualizer:
         # Create it here as we need a fresh iterator
         trainer_model_pairs = name_model_pairs(self.args.trainers, self.num_classes)
         for trainer, model_class in trainer_model_pairs:
-            if trainer != "nnUNetTrainer_MWNet":
-                logger.error("Eh? Use -a on nnUNetTrainer_MWNet, not %s", trainer)
+            if trainer != "nnUNetTrainer_MNet":
+                logger.error("Eh? Use -a on nnUNetTrainer_MNet, not %s", trainer)
                 continue
 
             for filepath in self.args.input_images:
@@ -329,8 +329,8 @@ class Visualizer:
     def visualize_subnet(self):
         trainer_model_pairs = name_model_pairs(self.args.trainers, self.num_classes)
         for trainer, model_class in trainer_model_pairs:
-            if trainer != "nnUNetTrainer_MWNet":
-                logger.error("Eh? Use -s on nnUNetTrainer_MWNet, not %s", trainer)
+            if trainer != "nnUNetTrainer_MNet":
+                logger.error("Eh? Use -s on nnUNetTrainer_MNet, not %s", trainer)
                 continue
             for filepath in self.args.input_images:
                 input_image = Image.open(filepath).convert("RGB")
@@ -350,8 +350,8 @@ class Visualizer:
     def visualize_heatmap(self):
         trainer_model_pairs = name_model_pairs(self.args.trainers, self.num_classes)
         for trainer, model_class in trainer_model_pairs:
-            if trainer not in ("nnUNetTrainer_MWNet", "nnUNetTrainer_WNet"):
-                logger.error("Eh? Use -s on nnUNetTrainer_MWNet or nnUNetTrainer_WNet, not %s", trainer)
+            if trainer not in ("nnUNetTrainer_MNet", "nnUNetTrainer_WNet"):
+                logger.error("Eh? Use -s on nnUNetTrainer_MNet or nnUNetTrainer_WNet, not %s", trainer)
                 continue
             for filepath in self.args.input_images:
                 input_image = Image.open(filepath).convert("RGB")

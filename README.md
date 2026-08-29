@@ -10,7 +10,7 @@ Facebook AI Research, UC Berkeley\
 <!-- ---  -->
 
 <figure align="center">
-<img src="figures/misc/comparison.png" width=60% height=60% class="center">
+<img src="static/comparison.png" width=60% height=60% class="center">
 <figcaption>Figure 1: Performance comparison on SynMars-TW.</figcaption>
 </figure>
 
@@ -99,6 +99,17 @@ uv run tools/print_model.py nnUNetTrainer_MNet -D 777 -i -p # testing
 ```
 uv run tools/benchmark.py nnUNetTrainer_MNetS --input-shape 512 512
 ```
+
+## Visualization
+Visualize heatmaps of subnetworks:
+```
+uv run tools/visualize_model.py nnUNetTrainer_WNet -D 777 -I /path/to/image -s
+```
+Visualize heatmaps of the second encoder and bridge:
+```
+uv run tools/visualize_model.py nnUNetTrainer_WNet -D 777 -I /path/to/image -H
+```
+
 
 ## Acknowledgement
 This repository is built using the [nnUNet](https://github.com/MIC-DKFZ/nnUNet), [nn~~W~~Net](https://github.com/Yanfeng-Zhou/nnWNet), and [RALA](https://github.com/qhfan/RALA) repositories. The README is adapted from [ConvNext](https://github.com/facebookresearch/ConvNeXt).
