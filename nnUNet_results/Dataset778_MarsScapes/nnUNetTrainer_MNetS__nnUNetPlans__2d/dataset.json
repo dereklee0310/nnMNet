@@ -1,0 +1,26 @@
+{
+    "channel_names": {
+        "0": "R",
+        "1": "G",
+        "2": "B"
+    },
+    "labels": {
+        "background": 0,
+        "Soil": 1,
+        "Bedrock": 2,
+        "Gravel": 3,
+        "Sand": 4,
+        "Big rock": 5,
+        "Ridge": 6,
+        "Sky": 7,
+        "Rover": 8,
+        "Unknown": 9
+    },
+    "numTraining": 17194,
+    "file_ending": ".png",
+    "licence": "Apache License, Version 2.0",
+    "converted_by": "Derek Lee",
+    "name": "Dataset778_MarsScapes",
+    "reference": "https://github.com/InRobots/MarsScapes",
+    "description": "MarsScapes"
+}

@@ -1,0 +1,25 @@
+[project]
+name = "mars"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fvcore>=0.1.5.post20221221",
+    "nnunetv2",
+    "rich>=15.0.0",
+    "rich-argparse>=1.8.0",
+    "tabulate>=0.10.0",
+    "torch>=2.13.0",
+    "torchaudio>=2.11.0",
+    "torchinfo>=1.8.0",
+    "torchvision>=0.28.0",
+]
+
+[tool.uv.workspace]
+members = [
+    "nnUNet",
+]
+
+[tool.uv.sources]
+nnunetv2 = { workspace = true, editable = true }

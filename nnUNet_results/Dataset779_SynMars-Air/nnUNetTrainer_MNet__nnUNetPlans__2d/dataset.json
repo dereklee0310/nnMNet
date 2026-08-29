@@ -1,0 +1,25 @@
+{
+    "channel_names": {
+        "0": "R",
+        "1": "G",
+        "2": "B"
+    },
+    "labels": {
+        "background": 0,
+        "Big rock": 1,
+        "Small rock": 2,
+        "Gravel": 3,
+        "Bedrock": 4,
+        "Ridge": 5,
+        "Sand": 6,
+        "Soil": 7,
+        "Sky": 8
+    },
+    "numTraining": 10550,
+    "file_ending": ".png",
+    "licence": "Apache License, Version 2.0",
+    "converted_by": "Derek Lee",
+    "name": "Dataset779_SynMars-Air",
+    "reference": "https://github.com/CVIR-Lab/SynMars",
+    "description": "SynMars-Air"
+}
