@@ -98,17 +98,17 @@ uv run tools/print_model.py nnUNetTrainer_MNet -D 777 -i -p # testing
 
 ## FPS Benchmarking
 ```
-uv run tools/benchmark.py nnUNetTrainer_MNetS --input-shape 512 512
+uv run tools/benchmark.py nnUNetTrainer_MNet --input-shape 512 512
 ```
 
 ## Visualization
 Visualize heatmaps of subnetworks:
 ```
-uv run tools/visualize_model.py nnUNetTrainer_WNet -D 777 -I /path/to/image -s
+uv run tools/visualize_model.py nnUNetTrainer_MNet -D 777 -I /path/to/image -s
 ```
 Visualize heatmaps of the second encoder and bridge:
 ```
-uv run tools/visualize_model.py nnUNetTrainer_WNet -D 777 -I /path/to/image -H
+uv run tools/visualize_model.py nnUNetTrainer_MNet -D 777 -I /path/to/image -H
 ```
 
 
