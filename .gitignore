@@ -24,13 +24,11 @@ datasets.zip
 kill.sh
 set_env.sh
 switch-cuda.sh
-prepare_dataset.sh
 
 tools/eta.py
 tools/Dataset*
 tools/preprocess*
 tools/convert_table_to_dict.py
-tools/convert_to_one_split.py
 tools/plot_distribution.py
 tools/plot_histogram.py
 tools/visualize_comparison.py

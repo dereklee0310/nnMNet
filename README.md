@@ -56,8 +56,7 @@ As nnUNet recommended, these should locates under the same directory.
 
 ## Dataset
 ### nnUNet
-Download the [benchmark](README.md), and preprocess all the datasets:  
-(The download link is not available now, we will update it soon ;P)
+Download the [benchmark](https://gofile.me/5qaQb/XwdTyfDlQ), and preprocess all the datasets: 
 ```
 ./prepare_datasets.sh
 ```
