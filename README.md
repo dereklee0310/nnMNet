@@ -1,7 +1,6 @@
 # [nn~~M~~Net: Baseline for Martian Terrain Semantic Segmentation](https://arxiv.org/abs/2608.29609)
 
-Official PyTorch implementation of nn~~M~~Net, from the following paper:
-[nn~~M~~Net: Baseline for Martian Terrain Semantic Segmentation](https://arxiv.org/abs/2608.29609). arXiv 2026.\
+nn~~M~~Net: Baseline for Martian Terrain Semantic Segmentation. arXiv 2026.\
 Ming-Han Lee, Chi-Yeh Chen\
 Supercomputing and Intelligent Visual System Laboratory, National Cheng Kung University\
 [[`arXiv`](https://arxiv.org/abs/2608.29609)][[`datasets`](https://gofile.me/5qaQb/XwdTyfDlQ)]
@@ -117,13 +116,16 @@ This repository is built using the [nnUNet](https://github.com/MIC-DKFZ/nnUNet),
 ## License
 This project is released under the MIT license. Please see the [LICENSE](LICENSE) file for more information.
 
-<!-- ## Citation
+## Citation
 If you find this repository helpful, please consider citing:
 ```
-@Article{liu2022convnet,
-  author  = {Zhuang Liu and Hanzi Mao and Chao-Yuan Wu and Christoph Feichtenhofer and Trevor Darrell and Saining Xie},
-  title   = {A ConvNet for the 2020s},
-  journal = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year    = {2022},
+@misc{lee2026nnmnet,
+  title={nnMNet: Baseline for Martian Terrain Semantic Segmentation}, 
+  author={Ming-Han Lee and Chi-Yeh Chen},
+  year={2026},
+  eprint={2608.29609},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2608.29609}, 
 }
-``` -->
+```
