@@ -28,15 +28,15 @@ We present nn~~M~~Net, a novel hybrid CNN-Transformer model for Martian terrain 
 
 |        Name        | Resolution | IoU (%) | Params (M) | FLOPs (G) |  FPS   |   Model   |
 | :----------------: | :--------: | :-----: | :--------: | :-------: | :----: | :-------: |
-|     nn~~M~~Net     |  512x512   |  83.25  |    5.71    |   39.81   | 63.33  | [model](nnUNet_results/Dataset778_MarsScapes/nnUNetTrainer_MNet__nnUNetPlans__2d/fold_0/checkpoint_final.pth) |
-| nn~~M~~Net&dagger; |  512x512   |  82.95  |    4.23    |   39.32   | 100.27 | [model](nnUNet_results/Dataset778_MarsScapes/nnUNetTrainer_MNetS__nnUNetPlans__2d/fold_0/checkpoint_final.pth) |
+|     nn~~M~~Net     |  512x512   |  83.25  |    5.71    |   39.81   | 63.33  | [model](nnUNet_results/Dataset779_SynMars-Air/nnUNetTrainer_MNet__nnUNetPlans__2d/fold_0/checkpoint_final.pth) |
+| nn~~M~~Net&dagger; |  512x512   |  82.95  |    4.23    |   39.32   | 100.27 | [model](nnUNet_results/Dataset779_SynMars-Air/nnUNetTrainer_MNetS__nnUNetPlans__2d/fold_0/checkpoint_final.pth) |
 
 ### MarsScapes
 
 |        Name        | Resolution | IoU (%) | Params (M) | FLOPs (G) |  FPS   |   Model   |
 | :----------------: | :--------: | :-----: | :--------: | :-------: | :----: | :-------: |
-|     nn~~M~~Net     |  256x512   |  88.24  |    5.71    |   19.91   | 93.45  | [model](nnUNet_results/Dataset779_SynMars-Air/nnUNetTrainer_MNet__nnUNetPlans__2d/fold_0/checkpoint_final.pth) |
-| nn~~M~~Net&dagger; |  256x512   |  88.42  |    4.23    |   19.67   | 178.23 | [model](nnUNet_results/Dataset779_SynMars-Air/nnUNetTrainer_MNetS__nnUNetPlans__2d/fold_0/checkpoint_final.pth) |
+|     nn~~M~~Net     |  256x512   |  88.24  |    5.71    |   19.91   | 93.45  | [model](nnUNet_results/Dataset778_MarsScapes/nnUNetTrainer_MNet__nnUNetPlans__2d/fold_0/checkpoint_final.pth) |
+| nn~~M~~Net&dagger; |  256x512   |  88.42  |    4.23    |   19.67   | 178.23 | [model](nnUNet_results/Dataset778_MarsScapes/nnUNetTrainer_MNetS__nnUNetPlans__2d/fold_0/checkpoint_final.pth) |
 
 
 ## Installation
