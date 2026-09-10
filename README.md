@@ -1,11 +1,10 @@
-# [nn~~M~~Net: Baseline for Martian Terrain Semantic Segmentation](README.md)
+# [nn~~M~~Net: Baseline for Martian Terrain Semantic Segmentation](https://arxiv.org/abs/2608.29609)
 
-Official PyTorch implementation of nn~~M~~Net.
-<!-- Official PyTorch implementation of **nn~~M~~Net**, from the following paper: -->
-<!-- [A ConvNet for the 2020s](https://arxiv.org/abs/2201.03545). CVPR 2022.\
-[Zhuang Liu](https://liuzhuang13.github.io), [Hanzi Mao](https://hanzimao.me/), [Chao-Yuan Wu](https://chaoyuan.org/), [Christoph Feichtenhofer](https://feichtenhofer.github.io/), [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/) and [Saining Xie](https://sainingxie.com)\
-Facebook AI Research, UC Berkeley\
-[[`arXiv`](https://arxiv.org/abs/2201.03545)][[`video`](https://www.youtube.com/watch?v=QzCjXqFnWPE)] -->
+Official PyTorch implementation of nn~~M~~Net, from the following paper:
+[nn~~M~~Net: Baseline for Martian Terrain Semantic Segmentation](https://arxiv.org/abs/2608.29609). arXiv 2026.\
+Ming-Han Lee, Chi-Yeh Chen\
+Supercomputing and Intelligent Visual System Laboratory, National Cheng Kung University\
+[[`arXiv`](https://arxiv.org/abs/2608.29609)][[`datasets`](https://gofile.me/5qaQb/XwdTyfDlQ)]
 
 <!-- ---  -->
 
@@ -56,7 +55,7 @@ As nnUNet recommended, these should locates under the same directory.
 
 ## Dataset
 ### nnUNet
-Download the [benchmark](https://gofile.me/5qaQb/XwdTyfDlQ), and preprocess all the datasets: 
+Download the [datasets](https://gofile.me/5qaQb/XwdTyfDlQ), and preprocess all of them: 
 ```
 ./prepare_datasets.sh
 ```
